@@ -1,12 +1,149 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.icons{
+
+.icons {
 
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 35px;
     margin: 5px;
+    color: black;
 }
+
+.navbar-nav {
+    position: relative;
+    z-index: 1000;
+    gap: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.navbar {
+    z-index: 1000;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    height: 6rem;
+    color: white;
+    background-color: rgb(255, 255, 255);
+
+}
+ 
+ 
+
+.fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/98fb/219f/a11f805aade2224f1d6658764a2395df?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aJHR1hSFbPjMK-RUP~wxkppuhD1GK1TML-UUL8jviqRJa9C-FM79zi0VKvlZUGcE0zhIDNZcVwXxMogx-yVp47GMHWZdPkhDPWFYOYlKS6sQafjwTNboyH2i2YCyumgX1znxDOna82ZMcEmWaLnBBZjvbeWWimFFvOfrgGwrTCiCmoe~eor0y5myAdnQsl9I8FEPdo0RfvgV2HdJGKaOOaoHUdlbiynavgPoGjHgegGzuRPcNOpT7loaoB-IV-jHizvlpTURzAfQQIgYPxqCqD~X1P2bgxlymlKf-5LwYzj6qAKYFOdki6v~lY553ndjwY-fzeWwhS2bK-oOPHyt2w__');
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+    z-index: -1;  
+  }
+
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    text-align: center;
+
+    color: white;  
+  }
+
+
+
+.section {
+ 
+  /* margin-top: -18rem; */
+  width: 100%;  
+  overflow: hidden;
+}
+ 
+ 
+ .text-box{
+
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   width: 65%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ 
+ .small-box{
+    height: auto;
+    padding: 20px;
+    max-width: 100%;
+    background-color: antiquewhite;
+
+ }
+ .small-box h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+.small-box h1{
+    color: rgb(152 113 12);
+    font-weight: 900;
+}
+.small-box p {
+    font-size: small;
+}
+ .buy-now{
+    margin-top: 1rem;
+    background-color: rgb(217, 130, 18);
+    width: 155px;
+    border: 0;
+    height: 45px;
+    font-weight: 800;
+    font-size: small;
+    color: white;
+ 
+ }
+
+ /* section2 started */
+
+
+
+ .browser h3{
+    margin-top: 3rem;
+    font-weight: 900;
+    
+    text-align: center;
+ }
+
+ .browser p{
+    text-align: center;
+ }
+
+ .triplets{
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .our-products{
+    margin-top: 3rem;
+    font-weight: 900;
+    
+    text-align: center;
+ }

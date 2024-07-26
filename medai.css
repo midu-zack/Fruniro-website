@@ -1,0 +1,16 @@
+@media (max-width:760px) {
+.text-box{
+    width: 90%;
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+}
+.small-box{
+    
+    align-items: end;
+    max-width: 80%;
+}
+    .fullscreen-image{
+        height: 90%;
+    }
+}
